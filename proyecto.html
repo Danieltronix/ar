@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="self.JPG" type="image/x">
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 2em;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+       
+        #videos {
+            display: flex;
+            justify-content: space around;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        video {
+            width: 100%;
+            max-width: 400px;
+            margin: 10px;
+        }
+
+        
+        #portfolio {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        
+        video {
+            transition: transform 0.3s ease-in-out;
+        }
+
+        video:hover {
+            transform: scale(1.1);
+        }
+
+        
+        a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        
+        .cv-button {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .cv-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+    <title>Victor Daniel</title>
+</head>
+<body>
+    <header>
+        <h1>Algunos proyectos</h1>
+    </header>
+    <main>
+        <section id="portfolio">
+            
+        </section>
+    </main>
+    <section id="videos">
+        
+    </section>
+    <footer>
+        <p>Victor Daniel Vazquez Valencia | <a href="https://www.instagram.com/vd_vazquezball/" target="_blank">Instagram</a></p>
+    </footer>
+    <a href="arVictorDaniel.pdf" target="_blank" download>
+        <button class="cv-button">Descargar CV</button>
+    </a>
+    <script>
+        
+        const videoNames = ['video1.mp4', 'video2.mp4', 'video3.mp4', 'video4.mp4'];
+
+        
+        function insertVideos() {
+            const videosSection = document.getElementById('videos');
+            videoNames.forEach((videoName, index) => {
+                const video = document.createElement('video');
+                video.src = `videos/${videoName}`;
+                video.autoplay = true;
+                video.controls = true;
+                video.loop = true;
+                video.muted = true;
+                video.poster = `img/video${index + 1}.jpg`;
+                videosSection.appendChild(video);
+            });
+        }
+
+        
+        window.onload = insertVideos;
+    </script>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+</body>
+</html>
