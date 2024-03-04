@@ -36,10 +36,18 @@
         }
 
         /* Estilos para la sección de videos */
+        .video-section {
+            background-color: #111;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
         #videos {
             display: flex;
-            justify-content: center;
-            align-items: center;
+            justify-content: space-around;
+            align-items: flex-start;
             flex-wrap: wrap;
             margin-top: 20px;
         }
@@ -63,7 +71,7 @@
             left: 0;
             width: 100%;
             background-color: rgba(0, 0, 0, 0.7);
-            padding: 5px;
+            padding: 10px;
             box-sizing: border-box;
             transition: transform 0.3s ease-in-out;
             transform: translateY(100%);
@@ -71,15 +79,6 @@
 
         .video-container:hover .video-info {
             transform: translateY(0);
-        }
-
-        /* Estilos para el portfolio */
-        #portfolio {
-            background-color: #111;
-            padding: 20px;
-            border-radius: 10px;
-            margin-bottom: 20px;
-            text-align: center;
         }
 
         /* Estilos para los enlaces */
@@ -91,58 +90,41 @@
         a:hover {
             text-decoration: underline;
         }
-
-        /* Estilos para botón de CV */
-        .cv-button {
-            background-color: #007BFF;
-            color: #fff;
-            padding: 10px 20px;
-            border: none;
-            cursor: pointer;
-            border-radius: 5px;
-            transition: background-color 0.3s ease-in-out;
-        }
-
-        .cv-button:hover {
-            background-color: #0056b3;
-        }
     </style>
-    <title>Victor Daniel</title>
+    <title>vd_vazquezball</title>
 </head>
 <body>
     <header>
-        <h1>Algunos proyectos</h1>
+        <h1>Victor Daniel</h1>
     </header>
     <main>
         <section id="portfolio">
             <!-- Aquí puedes añadir contenido para tu portfolio -->
         </section>
     </main>
-    <section id="videos">
-        <!-- Aquí se insertarán los videos dinámicamente -->
+    <section class="video-section">
+        <h2>Proyectos Destacados</h2>
+        <div id="videos1" class="videos"></div>
     </section>
     <footer>
-        <p><a href="https://www.linkedin.com/in/tu_usuario/" target="_blank">LinkedIn</a> | <a href="https://www.instagram.com/vd_vazquezball/" target="_blank">Instagram</a></p>
+        <p><a href="https://www.linkedin.com/in/vd-vazquezball-tronix/" target="_blank">LinkedIn</a> | <a href="https://www.instagram.com/vd_vazquezball/" target="_blank">Instagram</a></p>
     </footer>
-    <!-- Botón de Descargar CV -->
-    <a href="arVictorDaniel.pdf" target="_blank" download>
-        <button class="cv-button">Descargar CV</button>
-    </a>
 
     <!-- Scripts -->
     <script>
         // Lista de nombres de videos y sus descripciones
         const videosData = [
-            { name: 'video1.mp4', description: 'Descripción del video 1' },
-            { name: 'video2.mp4', description: 'Descripción del video 2' },
-            { name: 'video3.mp4', description: 'Descripción del video 3' },
-            { name: 'video4.mp4', description: 'Descripción del video 4' }
+            { name: 'proyecto1.mp4', description: 'Descripción del Proyecto 1. Esta es una descripción adicional para el Proyecto 1.' },
+            { name: 'proyecto2.mp4', description: 'Descripción del Proyecto 2. Esta es una descripción adicional para el Proyecto 2.' },
+            { name: 'proyecto3.mp4', description: 'Descripción del Proyecto 3. Esta es una descripción adicional para el Proyecto 3.' },
+            { name: 'proyecto4.mp4', description: 'Descripción del Proyecto 4. Esta es una descripción adicional para el Proyecto 4.' }
         ];
 
         // Función para insertar los videos dinámicamente
         function insertVideos() {
-            const videosSection = document.getElementById('videos');
-            videosData.forEach(videoData => {
+            const videosSection1 = document.getElementById('videos1');
+
+            videosData.forEach((videoData, index) => {
                 const videoContainer = document.createElement('div');
                 videoContainer.classList.add('video-container');
 
@@ -159,7 +141,9 @@
 
                 videoContainer.appendChild(video);
                 videoContainer.appendChild(videoInfo);
-                videosSection.appendChild(videoContainer);
+
+                // Insertar los videos en la sección de proyectos destacados
+                videosSection1.appendChild(videoContainer);
             });
         }
 
