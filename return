@@ -1,0 +1,146 @@
+[33mcommit b2620ba9d69b39e1f834f19ca9dc152d64a7df2c[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Victor Daniel <danieldnbass@gmail.com>
+Date:   Fri Jun 7 01:45:43 2024 -0600
+
+    nuevo origen local
+
+[33mcommit 71a9f1b6ea4f25c417a52d87fb90347d8cf6484f[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Victor Daniel <danieldnbass@gmail.com>
+Date:   Wed Jun 5 06:49:14 2024 -0600
+
+    nombre completo h1
+
+[33mcommit 83c4f69627f9ba5a1ca277bb7ac2ec60c30e04c3[m
+Author: Victor Daniel <danieldnbass@gmail.com>
+Date:   Mon Jun 3 21:56:16 2024 -0600
+
+    nuevo color h1
+
+[33mcommit 510e79a45ac97bb796a8c1227f2b641ba9fc103d[m
+Author: Danieltronix <125718678+Danieltronix@users.noreply.github.com>
+Date:   Wed Apr 17 23:15:45 2024 -0600
+
+    Update index.html
+
+[33mcommit 9379be5c3b9dead870d42985d615b6fa23d07a8c[m
+Author: Danieltronix <125718678+Danieltronix@users.noreply.github.com>
+Date:   Mon Mar 4 14:03:08 2024 -0600
+
+    Add files via upload
+
+[33mcommit 4d05a7655fae087bd84694cbefdcf0de72e396da[m
+Author: Danieltronix <125718678+Danieltronix@users.noreply.github.com>
+Date:   Mon Mar 4 09:56:14 2024 -0600
+
+    Add files via upload
+
+[33mcommit b5c0a8c3b2aef4de16b656c9791c2b4447593445[m
+Author: Danieltronix <125718678+Danieltronix@users.noreply.github.com>
+Date:   Mon Mar 4 06:48:02 2024 -0600
+
+    Add files via upload
+
+[33mcommit d609dd24f0bae3443680d44c77d72006a03eae7e[m
+Author: Danieltronix <125718678+Danieltronix@users.noreply.github.com>
+Date:   Mon Mar 4 06:42:41 2024 -0600
+
+    Update index.html
+
+[33mcommit 377bbd07a7e368a2806b9e9d323e50f566aad5c3[m
+Author: Danieltronix <125718678+Danieltronix@users.noreply.github.com>
+Date:   Mon Mar 4 06:39:19 2024 -0600
+
+    Add files via upload
+
+[33mcommit 96c4c1d22d6873ff57f65d344c7b90251d7337d8[m
+Author: Danieltronix <125718678+Danieltronix@users.noreply.github.com>
+Date:   Mon Mar 4 06:37:50 2024 -0600
+
+    Create yo.jpg
+
+[33mcommit aa61586d07711963a6abc796bdc70cf57ebb9fcf[m
+Author: Danieltronix <125718678+Danieltronix@users.noreply.github.com>
+Date:   Mon Mar 4 06:36:37 2024 -0600
+
+    Update index.html
+
+[33mcommit 973d0b17c95d3c9feacec8ee244b4814bf5e7aee[m
+Author: Danieltronix <125718678+Danieltronix@users.noreply.github.com>
+Date:   Mon Mar 4 05:00:17 2024 -0600
+
+    Update index.html
+
+[33mcommit d4b2952dbb5c75b088274505c1e191d26a9cbe4e[m
+Author: Danieltronix <125718678+Danieltronix@users.noreply.github.com>
+Date:   Mon Mar 4 04:50:10 2024 -0600
+
+    Update index.html
+
+[33mcommit 81c36fd3ab300ea6768b0bf843c8b956c4b85cb9[m
+Author: Danieltronix <125718678+Danieltronix@users.noreply.github.com>
+Date:   Sat Mar 2 23:37:23 2024 -0600
+
+    Update index.html
+
+[33mcommit 7527058e0c18f0b0d7ecfb5f03d0ea993eb3eb3a[m
+Author: Danieltronix <125718678+Danieltronix@users.noreply.github.com>
+Date:   Sat Mar 2 23:27:38 2024 -0600
+
+    index.html
+
+[33mcommit efbe96110cac8c6d737ec37bf16d24f09f30d609[m
+Merge: 866140c edab7dd
+Author: victorDaniel <victordaniel.cfe@gmail.com>
+Date:   Wed Nov 15 10:32:37 2023 -0600
+
+    Merge branch 'main' of https://github.com/Danieltronix/ar
+
+[33mcommit 866140c3c0079e6c35ae78233205849c55fd3598[m
+Author: victorDaniel <victordaniel.cfe@gmail.com>
+Date:   Wed Nov 15 10:24:23 2023 -0600
+
+    SIN CV
+
+[33mcommit edab7dde53e2111e3756b2f3b3628a0625e556a7[m
+Author: You <eran>
+Date:   Tue Nov 14 15:24:54 2023 -0600
+
+    holA
+
+[33mcommit c4dcb3e3e3c467c0e451d42d3e2046f6021c4a7e[m
+Author: victorDaniel <victordaniel.cfe@gmail.com>
+Date:   Mon Nov 13 14:01:33 2023 -0600
+
+    Revert "Cambio de nombre completo a VD"
+    
+    This reverts commit 559cbd9f976636f3c54766e0328aa2dae7d35302.
+
+[33mcommit 559cbd9f976636f3c54766e0328aa2dae7d35302[m
+Author: victorDaniel <victordaniel.cfe@gmail.com>
+Date:   Mon Nov 13 12:15:41 2023 -0600
+
+    Cambio de nombre completo a VD
+
+[33mcommit 97ae53c67d8bbf179d4332fdbacad56dad22ac82[m
+Author: Danieltronix <125718678+Danieltronix@users.noreply.github.com>
+Date:   Thu Oct 19 10:00:22 2023 -0600
+
+    Add files via upload
+
+[33mcommit 1b7b4fc9ab5e168beb5609354d8b7b97a5fdfc87[m
+Author: Danieltronix <125718678+Danieltronix@users.noreply.github.com>
+Date:   Wed Oct 18 23:21:18 2023 -0600
+
+    Add files via upload
+
+[33mcommit 726041d33c34c7e2cb44917551a797f426d92663[m
+Author: Danieltronix <125718678+Danieltronix@users.noreply.github.com>
+Date:   Wed Oct 18 22:46:44 2023 -0600
+
+    Update and rename proyecto.html to index.html
+
+[33mcommit 9d0e8ff94fc7ba463bf2a6ccb71e064c11c76a0e[m
+Author: Danieltronix <125718678+Danieltronix@users.noreply.github.com>
+Date:   Wed Oct 18 22:39:51 2023 -0600
+
+    Add files via upload
